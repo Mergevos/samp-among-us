@@ -1,6 +1,6 @@
 # samp-warboot
 
-[![sampctl](https://img.shields.io/badge/sampctl-samp--among--us-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/samp-among-us)
+[![sampctl](https://img.shields.io/badge/Mergevos-samp--among--us-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/samp-among-us)
 
 Gamemode written for upcoming open.mp
 

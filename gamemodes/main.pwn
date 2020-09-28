@@ -11,7 +11,6 @@
 #include < sscanf2 >
 
 //pawnplus
-#define PP_SYNTAX_AWAIT
 #include < PawnPlus >
 #include < pp-mysql >
 #include < advanced_kicks >
@@ -24,8 +23,6 @@
 #include < bcrypt >
 //env
 #include < env >
-// flag models
-#include < world-flags >
 //Modules
 //Modules/database
 #include < database >
@@ -33,9 +30,6 @@
 #include < misc >
 //Modules/account
 #include < accounts >
-//Modules/character
-#include < characters >
-
 main()
 {
     return;

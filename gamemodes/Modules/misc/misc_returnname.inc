@@ -1,3 +1,8 @@
+// --
+// <summary>Used to return player's name</summary>
+    // <param name="plauerid"> playerid to check</param>
+// --
+
 forward [MAX_PLAYER_NAME + 1]Misc_ReturnName(playerid);
 stock Misc_ReturnName(playerid)
 {

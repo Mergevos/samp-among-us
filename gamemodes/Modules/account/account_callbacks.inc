@@ -36,7 +36,9 @@ public void:OnPasswordChecked(playerid)
         bool:match = bcrypt_is_equal();
 
     if(match) {
-        CallLocalFunction("OnPlayerLogin", "i", playerid);
+        TogglePlayerSpectating(playerid, false);
+        SetSpawnInfo(playerid, NO_TEAM, 1, 0.0, 0.0, 0.0, 0.0, 0, 0, 0, 0, 0, 0);
+        SpawnPlayer(playerid);
         strdel(Account_ReturnPassword(playerid), 0, 61);
     } 
     else {

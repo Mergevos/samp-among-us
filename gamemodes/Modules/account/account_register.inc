@@ -67,12 +67,14 @@ stock Account_EmailDialogHandler(playerid)
 
 static stock void:registerPlayer(playerid)
 {
-    mysql_tquery_s(Database_ReturnHandle(),
+    mysql_aquery_s(Database_ReturnHandle(),
         str_format(
             "INSERT INTO `accounts` \
             (`account_name`, `account_password`, `account_email`) \
             VALUES \
-            ('%e', '%s', '%e')", Misc_ReturnName(playerid), Account_ReturnPassword(playerid), Account_ReturnEmail(playerid)),
-            "OnPlayerRegister", "i", playerid
-    );
+            ('%e', '%s', '%e')", Misc_ReturnName(playerid), Account_ReturnPassword(playerid), Account_ReturnEmail(playerid)));
+
+    TogglePlayerSpectating(playerid, false);
+    SetSpawnInfo(playerid, NO_TEAM, 3, 0.0, 0.0, 0.0, 0.0, 0,0,0,0,0,0);
+    SpawnPlayer(playerid);
 }

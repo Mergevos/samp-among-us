@@ -1,6 +1,6 @@
 {
 	"user": "Mergevos",
-	"repo": "samp-warboot-gamemode",
+	"repo": "samp-among-us",
 	"entry": "gamemodes\\main.pwn",
 	"output": "gamemodes\\main.amx",
 	"dependencies": [
@@ -13,8 +13,11 @@
 		"dakyskye/pawn-env",
 		"pBlueG/SA-MP-MySQL",
 		"lassir/bcrypt-samp",
+		"AGraber/samp-async-dialogs",
 		"Mergevos/samp-advanced-kicks",
-		"AGraber/samp-async-dialogs"
+		"Y-Less/sscanf",
+		"TommyB123/eSelection",
+		"urShadow/Pawn.Regex"
 	],
 	"builds": [
 		{
@@ -22,11 +25,11 @@
 			"version": "3.10.10",
 			"args": [
 				"-;+",
-				"-(+", 
+				"-(+",
+				"-v3",
 				"-d3",
 				"-E",
-				"-Z",
-				"-v"
+				"-Z"
 			],
 			"includes": [
 				"gamemodes/Modules/database",

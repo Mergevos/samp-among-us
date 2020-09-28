@@ -1,14 +1,14 @@
 # samp-warboot
 
-[![sampctl](https://img.shields.io/badge/sampctl-samp--warboot-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/samp-warboot)
+[![sampctl](https://img.shields.io/badge/sampctl-samp--among--us-2f2f2f.svg?style=for-the-badge)](https://github.com/Mergevos/samp-among-us)
 
-Gamemode written by modern standards of Pawn language.
+Gamemode written for upcoming open.mp
 
 ## Installation
 
 Use: 
 ```git
-git clone Mergevos/samp-warboot-gamemode
+git clone Mergevos/samp-among-us
 ```
 
 Simply run gamemode in three lines:
